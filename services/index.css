@@ -1,0 +1,17 @@
+section{
+    width: 100%;
+    background: whitesmoke;
+}
+
+.service{
+    text-align: center;
+    padding-top: 5rem;
+    height: 34rem;
+    font-family: "Comfortaa", sans-serif;
+}
+
+/* @media (max-width: 40rem) {
+    .service{
+        height: 40rem;
+    }
+} */

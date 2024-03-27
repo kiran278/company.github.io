@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 5.6rem;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5.6rem;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container .logo img {
+    width: 4.5rem;
+}
+
+.logo-container .logo-description {
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: -0.3rem;
+    color: #05a5ad;
+}
+@media (min-width: 64rem) {
+    .logo-container {
+        padding-right: 27.5rem;
+    }
+    .nav-items {
+        padding-right: 8.5rem;
+    }
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-items a {
+    text-decoration: none;
+}
+
+.nav-item {
+    margin-left: 2.5rem;
+    font-size: 16px;
+    color: #05a5ad;
+}
+
+.main-header .button {
+    display: none;
+}
+
+.toggle-button {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
+
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: orange;
+    display: block;
+    margin: 0.35rem 0;
+}
+
+.main-header .button-toggle {
+    display: none;
+}
+
+.cross-button {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.cross-button:focus {
+    outline: none;
+}
+
+.cross-button__bar {
+    width: 100%;
+    height: 0.25rem;
+    background-color: orange;
+    display: block;
+    margin: -0.2rem;
+}
+
+.cross-button__bar1 {
+    transform: rotate(45deg);
+}
+
+.cross-button__bar2 {
+    transform: rotate(-45deg);
+}
+
+.mobile_nav-bar {
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    width: 12rem;
+    height: 12rem;
+    background: white;
+    align-content: center;
+    display: none;
+}
+
+.mobile_nav-items a {
+    text-decoration: none;
+}
+
+.mobile_nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mobile_nav-item {
+    color: #05a5ad;
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 40rem) {
+    .main-header .button {
+        display: block;
+    }
+
+    .main-header .button-toggle {
+        display: none;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .main-header {
+        justify-content: space-between;
+    }
+
+    .logo-container {
+        margin-left: 1rem;
+    }
+}
+
+
+.footer {
+    width: 100%;
+    height: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-content: center;
+}
+
+.footer-logo__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.footer-logo__container .footer-logo img {
+    width: 8rem;
+}
+
+.footer-logo__container .footer-logo__description {
+    text-decoration: none;
+    font-size: 16px;
+    color: #05a5ad;
+}
+
+.footer-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.footer-service a,
+.footer-address a {
+    color: #05a5ad;
+    font-size: 1.4rem;
+}
+
+.copyright {
+    padding: 0.5rem;
+    text-align: center;
+    /* background: rgb(231, 230, 230); */
+    font-family: "Comfortaa", sans-serif;
+    font-size: small;
+}
+
+@media (max-width: 40rem) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 32rem;
+        padding-bottom: 4rem;
+    }
+
+    .footer-service {
+        align-items: flex-start;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .footer-address {
+        align-items: flex-start;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .copyright {
+        padding: 0.5rem;
+    }
+}

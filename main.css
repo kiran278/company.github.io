@@ -1,0 +1,433 @@
+section {
+    width: 100%;
+}
+
+section .heading {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding-top: 9.5rem;
+    margin-top: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+section .content {
+    text-align: start;
+    color: white;
+    line-height: 2rem;
+    margin: 5rem 30rem 0 30rem;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+}
+
+.development {
+    background: #05a5ad;
+    height: 55rem;
+    position: relative;
+}
+
+/* development animation */
+@media (min-width: 64rem) {
+    .main-content {
+        padding-right: 8rem;
+     }
+    .devlop-heading{
+        padding-right: 7.5rem; 
+        /* width: 35.5rem;
+        margin-left: 28rem; */
+    } 
+
+    .development-left-dots {
+        position: absolute;
+        width: 7rem;
+        height: 33rem;
+        top: 6rem;
+        left: 8rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 100px;
+        height: 600px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+
+   
+
+    .development-right-dots {
+        position: absolute;
+        width: 15rem;
+        height: 20rem;
+        right: 10rem;
+        top: 17rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 210px;
+        height: 320px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+
+
+
+    .development-box-container {
+        position: relative;
+
+    }
+
+    .development-rotate-center1 {
+        position: absolute;
+        top: 4rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 10s linear infinite reverse both;
+        animation: rotate-center 10s linear infinite reverse both;
+    }
+
+    .development-rotate-center2 {
+        position: absolute;
+        top: 7.5rem;
+        left: 2rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 6s linear infinite both;
+        animation: rotate-center 6s linear infinite both;
+    }
+
+}
+
+.about {
+    background: #046a38;
+    height: 52rem;
+    position: relative;
+}
+.about-content{
+    padding-top: 2rem !important;
+}
+
+/* about animation */
+@media (min-width: 64rem) {
+    
+
+    .about-left-dots {
+        position: absolute;
+        width: 15rem;
+        height: 20rem;
+        left: 12rem;
+        top: 18rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 210px;
+        height: 350px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+
+
+
+    .about-box-container {
+        position: relative;
+
+    }
+
+    .about-rotate-center1 {
+        position: absolute;
+        top: 4rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 10s linear infinite reverse both;
+        animation: rotate-center 10s linear infinite reverse both;
+    }
+
+    .about-rotate-center2 {
+        position: absolute;
+        top: 7.5rem;
+        left: 2rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 6s linear infinite both;
+        animation: rotate-center 6s linear infinite both;
+    }
+
+    .about-right-dots {
+        position: absolute;
+        width: 7rem;
+        height: 33em;
+        top: 6rem;
+        right: 8rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 100px;
+        height: 600px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+}
+
+.service {
+    background: #1e3a8a;
+    height: 52rem;
+    position: relative;
+}
+
+/* service animation */
+@media (min-width: 64rem) {
+
+
+    .service-left-dots {
+        position: absolute;
+        width: 7rem;
+        height: 33em;
+        top: 6rem;
+        left: 8rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 100px;
+        height: 600px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+
+    .service-right-dots {
+        position: absolute;
+        width: 15rem;
+        height: 20rem;
+        right: 10rem;
+        top: 17rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 210px;
+        height: 320px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+
+
+    .service-box-container {
+        position: relative;
+
+    }
+
+    .service-rotate-center1 {
+        position: absolute;
+        top: 4rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 10s linear infinite reverse both;
+        animation: rotate-center 10s linear infinite reverse both;
+    }
+
+    .service-rotate-center2 {
+        position: absolute;
+        top: 7.5rem;
+        left: 2rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 6s linear infinite both;
+        animation: rotate-center 6s linear infinite both;
+    }
+
+}
+
+/* .development-heading{
+    /* transform: translateX(-2rem);
+    transition: transform 3s ease-out; */
+/* animation: moving 3s ease-out; 
+} */
+
+
+
+
+
+.clients {
+    height: 49rem;
+    background: whitesmoke;
+    margin-top: 0;
+}
+
+.clients-heading {
+    margin-top: 0;
+    padding-top: 6rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.clients-image {
+    width: 80%;
+    height: 25rem;
+    margin: auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 1rem;
+}
+
+@media (max-width: 48rem) {
+    .clients-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .clients-image__container-main {
+        order: 1;
+    }
+
+    section .content {
+        margin: 5rem 2rem 0 2rem;
+    }
+
+    section .heading {
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 40rem) {
+    section .content {
+        margin: 5rem 2rem 0 2rem;
+    }
+
+    .about {
+        height: 80rem;
+    }
+
+    .clients-image {
+        display: flex;
+        flex-direction: column;
+        height: 35rem;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+/* @keyframes moving{
+    0%{
+        transform: translateX(-2rem);
+    }
+    40%{
+        transform: translateX(2rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} */
+
+
+@media (min-width: 48rem) {
+    .typewriter {
+        
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        /* border-right: .15em solid orange; The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        /* letter-spacing: .15em; Adjust as needed */
+        animation:
+            typing 5s steps(40, end) forwards;
+        /* blink-caret .75s step-end infinite; */
+    }
+
+    section .content {
+        margin: 0 auto;
+        max-width: 44rem;
+        padding-top: 6rem;
+    }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-3-26 12:26:18
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-fwd-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
+    }
+}
+
+@keyframes slide-fwd-center {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-3-26 10:30:21
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

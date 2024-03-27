@@ -1,0 +1,154 @@
+section{
+    width: 100%;
+}
+
+.contact-us{
+    background: orange;
+    height: 34rem;
+    text-align: center;
+}
+
+.contact-us__heading{
+    padding-top: 4.5rem;
+    font-size: 1.8rem;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.contact-us__content{
+    margin: 0 25rem;
+    padding-top: 2rem;
+    text-align: justify;
+    line-height: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@media (max-width: 64rem) {
+   
+    .contact-us__content{
+        margin: 0 10rem;
+    }
+    .contact-us{
+        height: 40rem;
+    }
+}
+
+@media (max-width: 48rem) {
+   .contact-us{
+    margin-bottom: 2rem;
+   }
+    .contact-us__content{
+        margin: 0 5rem;
+    }
+}
+
+@media (max-width: 40rem) {
+    .contact-us{
+        height: 40rem;
+    }
+    .contact-us__content{
+        margin: 0 2rem;
+    }
+}
+@media (min-width: 48rem) {
+    .contact-us__content {
+        margin: 0 auto;
+        max-width: 44rem;
+    }
+
+}
+
+/* contact us animation */
+@media (min-width: 64rem) {
+    
+    .contact-left-dots{
+        position: absolute;
+        width: 7rem;
+        height: 33em;
+        top: 6rem;
+        left: 8rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 100px;
+        height: 500px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+    
+    .contact-right-dots{
+        position: absolute;
+        width: 15rem;
+        height: 20rem;
+        right: 12rem;
+        top: 15rem;
+
+        background-image: radial-gradient(circle, #fff 10%, transparent 0);
+        background-size: 20px 20px;
+        position: absolute;
+        width: 210px;
+        height: 320px;
+        animation: slide-fwd-center 7s linear reverse both;
+    }
+
+    
+
+    .contact-box-container{
+        position: relative;
+        
+    }
+
+    .contact-rotate-center1 {
+        position: absolute;
+        top: 4rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 10s linear infinite reverse both;
+	        animation: rotate-center 10s linear infinite reverse both;
+    }
+
+    .contact-rotate-center2 {
+        position: absolute;
+        top: 7.5rem;
+        left: 2rem;
+        border: 2px solid white;
+        height: 3.2rem;
+        width: 3.2rem;
+        -webkit-animation: rotate-center 6s linear infinite both;
+                animation: rotate-center 6s linear infinite both;
+    }
+    
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+  @keyframes slide-fwd-center {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
